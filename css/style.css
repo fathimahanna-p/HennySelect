@@ -215,6 +215,14 @@ button, input {
   width: auto;
 }
 
+  .header{
+  transition: all 0.3s ease;
+}
+
+.logo-svg{
+  transition: all 0.3s ease;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -829,6 +837,8 @@ button, input {
   .drinks-summary-card {
     grid-template-columns: repeat(2, 1fr);
   }
+
+
 }
 
 /* Mobile layout */
@@ -887,6 +897,16 @@ button, input {
   .header{
   padding: 1.2rem 0;
  }
+
+  .header.scrolled{
+    padding: 0.4rem 0;
+  }
+
+  .header.scrolled .logo-svg{
+    height: 65px !important;
+    transform: translateY(-4px);
+  }
+
 
 }
 
