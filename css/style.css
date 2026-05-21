@@ -867,14 +867,26 @@ button, input {
     
   }
 
-   .logo-wrapper{
+   .header-container{
     justify-content: center;
+  }
+
+  .logo-wrapper{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo-svg{
-    height: 60px;
+     height: 90px !important;
+    width: auto;
+    display: block;
   }
+
+  .header{
+  padding: 1.2rem 0;
+ }
 
 }
 
