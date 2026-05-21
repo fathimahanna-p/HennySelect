@@ -211,7 +211,7 @@ button, input {
 
 /* SVG Logo Styling */
 .logo-svg {
-  height: 38px;
+  height: 70px;
   width: auto;
 }
 
@@ -743,6 +743,9 @@ button, input {
   color: #1C1C1E;
   font-size: 40px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: 0.2s;
 }
 
@@ -857,11 +860,20 @@ button, input {
   }
 
    .insta-icon{
-    display: flex !important;
-    font-size: 40px;
+
+    font-size: 35px;
     padding: 10px;
     
     
+  }
+
+   .logo-wrapper{
+    justify-content: center;
+    width: 100%;
+  }
+
+  .logo-svg{
+    height: 60px;
   }
 
 }
