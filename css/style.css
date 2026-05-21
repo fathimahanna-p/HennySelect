@@ -856,6 +856,14 @@ button, input {
     height: 300px;
   }
 
+   .insta-icon{
+    display: flex !important;
+    font-size: 40px;
+    padding: 10px;
+    
+    
+  }
+
 }
 
 /* Tiny mobile devices */
